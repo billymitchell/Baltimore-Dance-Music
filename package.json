@@ -1,0 +1,27 @@
+{
+  "name": "baltimore-dance-music",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server . --port=8080 --watch=./",
+    "generate-pages": "node scripts/generate-pages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billymitchell/Baltimore-Dance-Music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billymitchell/Baltimore-Dance-Music/issues"
+  },
+  "homepage": "https://github.com/billymitchell/Baltimore-Dance-Music#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
